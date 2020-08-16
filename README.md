@@ -43,10 +43,10 @@ csdnApi.功能({
 
 ```javascript
 	csdnApi.alert({
-        message: '确认取消吗',
-        title: "提示",
-        buttonLabels: ['是', '否'],
-        onSuccess: (data) {
+		message: '确认取消吗',
+		title: "提示",
+		buttonLabels: ['是', '否'],
+		onSuccess: (data) {
 			/*
 			{
 				success: 0, //0 成功， 1 失败
@@ -55,7 +55,7 @@ csdnApi.功能({
 			}
 			*/
 		}
-      })
+	})
 ```
 ###### 说明：
 |参数|参数类型|说明|
@@ -70,7 +70,7 @@ csdnApi.功能({
 
 ```javascript
 	csdnApi.scan({
-        onSuccess: (data) {
+		onSuccess: (data) {
 			/*
 			{
 				success: 0, //0 成功， 1 失败
@@ -79,7 +79,7 @@ csdnApi.功能({
 			}
 			*/
 		}
-      })
+	})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
@@ -96,7 +96,7 @@ csdnApi.功能({
 
 ```javascript
 	csdnApi.call({
-        onSuccess: (data) {
+		onSuccess: (data) {
 			/*
 			{
 				success: 0, //0 成功， 1 失败
@@ -104,7 +104,7 @@ csdnApi.功能({
 			}
 			*/
 		}
-      })
+	})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
@@ -116,7 +116,7 @@ csdnApi.功能({
 
 ```javascript
 	csdnApi.setTitle({
-        onSuccess: (data) {
+		onSuccess: (data) {
 			/*
 			{
 				success: 0, //0 成功， 1 失败
@@ -124,7 +124,7 @@ csdnApi.功能({
 			}
 			*/
 		}
-      })
+	})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
@@ -143,7 +143,7 @@ csdnApi.功能({
 
 ```javascript
 	csdnApi.getWifiStatus({
-        onSuccess: (data) {
+		onSuccess: (data) {
 			/*
 			{
 				success: 0, //0 成功， 1 失败
@@ -152,7 +152,7 @@ csdnApi.功能({
 			}
 			*/
 		}
-      })
+	})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
@@ -169,7 +169,7 @@ csdnApi.功能({
 
 ```javascript
 	csdnApi.getGeolocation({
-        onSuccess: (data) {
+		onSuccess: (data) {
 			/*
 			{
 				success: 0, //0 成功， 1 失败
@@ -186,7 +186,7 @@ csdnApi.功能({
 			}
 			*/
 		}
-      })
+	})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
@@ -209,7 +209,7 @@ csdnApi.功能({
 
 ```javascript
 	csdnApi.toUploadImage({
-        onSuccess: (data) {
+		onSuccess: (data) {
 			/*
 			{
 				success: 0, //0 成功， 1 失败
@@ -218,7 +218,7 @@ csdnApi.功能({
 			}
 			*/
 		}
-      })
+	})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
