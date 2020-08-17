@@ -2,11 +2,11 @@
 
 #### 1. 浏览器引入
 ```javascript
-	<script src="相对路径/csdn_api.js"></script>
+<script src="相对路径/csdn_api.js"></script>
 ```
 #### 2. 模块引入
 ```javascript
-	import csdnApi from "相对路径/csdn_api.js"
+import csdnApi from "相对路径/csdn_api.js"
 ```
 
 #### 3. 接口约定
@@ -18,11 +18,11 @@
 import csdnApi from "相对路径/csdn_api.js"
 
 csdnApi.功能({
-	参数1: '',
-	参数2: '',
-	...,
-	onSuccess: function(result) {
-	}
+ 参数1: '',
+ 参数2: '',
+ ...,
+ onSuccess: function(result) {
+ }
 })
 ```
 
