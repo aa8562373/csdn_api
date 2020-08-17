@@ -18,11 +18,11 @@ import csdnApi from "相对路径/csdn_api.js"
 import csdnApi from "相对路径/csdn_api.js"
 
 csdnApi.功能({
- 参数1: '',
- 参数2: '',
- ...,
- onSuccess: function(result) {
- }
+  参数1: '',
+  参数2: '',
+  ...,
+  onSuccess: function(result) {
+  }
 })
 ```
 
@@ -30,8 +30,8 @@ csdnApi.功能({
 **toast 轻提示**
 
 ```javascript
-	// csdnApi.toast(name)
-	csdnApi.toast("我是提示信息")
+// csdnApi.toast(name)
+  csdnApi.toast("我是提示信息")
 ```
 ###### 参数说明
 |参数|说明|
@@ -42,20 +42,20 @@ csdnApi.功能({
 **alert确定弹窗**
 
 ```javascript
-	csdnApi.alert({
-		message: '确认取消吗',
-		title: "提示",
-		buttonLabels: ['是', '否'],
-		onSuccess: (data) {
-			/*
-			{
-				success: 0, //0 成功， 1 失败
-				data: '' //返回值 
-				message: "" //说明字段
-			}
-			*/
-		}
-	})
+csdnApi.alert({
+  message: '确认取消吗',
+  title: "提示",
+  buttonLabels: ['是', '否'],
+  onSuccess: (data) {
+    /*
+    {
+      success: 0, //0 成功， 1 失败
+      data: '' //返回值 
+      message: "" //说明字段
+    }
+    */
+  }
+})
 ```
 ###### 说明：
 |参数|参数类型|说明|
@@ -69,17 +69,17 @@ csdnApi.功能({
 **scan扫码**
 
 ```javascript
-	csdnApi.scan({
-		onSuccess: (data) {
-			/*
-			{
-				success: 0, //0 成功， 1 失败
-				data: '' //返回扫码内容
-				message: "" //说明字段
-			}
-			*/
+csdnApi.scan({
+	onSuccess: (data) {
+		/*
+		{
+			success: 0, //0 成功， 1 失败
+			data: '' //返回扫码内容
+			message: "" //说明字段
 		}
-	})
+		*/
+	}
+})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
@@ -95,7 +95,7 @@ csdnApi.功能({
 **call拨打电话**
 
 ```javascript
-	csdnApi.call({
+csdnApi.call({
 		onSuccess: (data) {
 			/*
 			{
@@ -104,7 +104,7 @@ csdnApi.功能({
 			}
 			*/
 		}
-	})
+})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
@@ -115,16 +115,16 @@ csdnApi.功能({
 **setTitle修改当前标题**
 
 ```javascript
-	csdnApi.setTitle({
-		onSuccess: (data) {
-			/*
-			{
-				success: 0, //0 成功， 1 失败
-				message: "" //说明字段
-			}
-			*/
+csdnApi.setTitle({
+	onSuccess: (data) {
+		/*
+		{
+			success: 0, //0 成功， 1 失败
+			message: "" //说明字段
 		}
-	})
+		*/
+	}
+})
 ```
 ###### 参数说明：
 |参数|参数类型|说明|
