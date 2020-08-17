@@ -96,14 +96,14 @@ csdnApi.scan({
 
 ```javascript
 csdnApi.call({
-		onSuccess: (data) {
-			/*
-			{
+  onSuccess: (data) {
+  /*
+  {
 				success: 0, //0 成功， 1 失败
 				message: "" //说明字段
 			}
 			*/
-		}
+  }
 })
 ```
 ###### 参数说明：
